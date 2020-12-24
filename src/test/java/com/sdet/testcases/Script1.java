@@ -128,6 +128,21 @@ public class Script1 {
 		System.out.println("New tset case added   2");
 	}
 	
+	@Test(invocationCount = 1, enabled = true)
+	public void script5() throws InterruptedException {
+		
+		System.out.println("India is great");
+	}
+	
+	
+	@Test(invocationCount = 1, enabled = true)
+	public void script6() throws InterruptedException {
+		
+
+		System.out.println("Amir Khan");
+
+	}
+	
 	
 	
 	
