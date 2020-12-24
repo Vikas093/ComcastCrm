@@ -122,6 +122,14 @@ public class Script1 {
 		System.out.println("New tset case added   1");
 	}
 	
+	@Test(invocationCount = 1, enabled = true)
+	public void script4() throws InterruptedException {
+		
+		System.out.println("New tset case added   3");
+	}
+	
+	
+	
 	
 	
 	}
