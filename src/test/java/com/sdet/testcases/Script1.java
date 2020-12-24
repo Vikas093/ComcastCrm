@@ -108,4 +108,14 @@ public class Script1 {
 //		driver.findElement(By.xpath("//a[text()='" + orgName + "']/../../td[8]/a[text()='del']")).click();
 //		driverUtils.acceptingAlert(driver);
 	}
-}
+	
+
+	@Test(invocationCount = 1, enabled = true)
+	public void script2() throws InterruptedException {
+		
+		System.out.println("New tset case added");
+	}
+	}
+	
+	
+
