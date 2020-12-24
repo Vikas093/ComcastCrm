@@ -130,6 +130,15 @@ public class Script1 {
 
 	}
 	
+	@Test(invocationCount = 1, enabled = true)
+	public void script6() throws InterruptedException {
+		
+
+		System.out.println("Salman khan");
+
+	}
+	
+	
 	
 	
 	
