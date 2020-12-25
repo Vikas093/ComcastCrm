@@ -154,6 +154,16 @@ public class Script1 {
 		System.out.println("Katrina kaif");
 
 	}
+	
+
+	@Test(invocationCount = 1, enabled = true)
+	public void script8() throws InterruptedException {
+		
+
+		System.out.println("Rahul Kulkarni");
+
+	}
+
 
 	
 	
