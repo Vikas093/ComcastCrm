@@ -125,10 +125,13 @@ public class Script1 {
 	@Test(invocationCount = 1, enabled = true)
 	public void script4() throws InterruptedException {
 		
-		System.out.println("New tset case added   2");
+
+		System.out.println("New tset case added   3");
+
 	}
 	
 	@Test(invocationCount = 1, enabled = true)
+
 	public void script5() throws InterruptedException {
 		
 		System.out.println("India is great");
@@ -143,6 +146,15 @@ public class Script1 {
 
 	}
 	
+
+	@Test(invocationCount = 1, enabled = true)
+	public void script7() throws InterruptedException {
+		
+
+		System.out.println("Katrina kaif");
+
+	}
+
 	
 	
 	
