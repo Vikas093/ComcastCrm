@@ -137,6 +137,14 @@ public class Script1 {
 		System.out.println("Salman khan");
 
 	}
+
+	@Test(invocationCount = 1, enabled = true)
+	public void script7() throws InterruptedException {
+		
+
+		System.out.println("Priyanka chopra");
+
+	}
 	
 	
 	
