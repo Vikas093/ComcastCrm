@@ -131,10 +131,18 @@ public class Script1 {
 	}
 	
 	@Test(invocationCount = 1, enabled = true)
+
+	public void script5() throws InterruptedException {
+		
+		System.out.println("India is great");
+	}
+	
+	
+	@Test(invocationCount = 1, enabled = true)
 	public void script6() throws InterruptedException {
 		
 
-		System.out.println("Salman khan");
+		System.out.println("Amir Khan");
 
 	}
 
@@ -146,7 +154,15 @@ public class Script1 {
 
 	}
 	
-	
+
+	@Test(invocationCount = 1, enabled = true)
+	public void script8() throws InterruptedException {
+		
+
+		System.out.println("Rahul Roi");
+
+	}
+
 	
 	
 	
