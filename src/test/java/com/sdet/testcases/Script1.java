@@ -179,6 +179,13 @@ public class Script1 {
 
 	
 	
+	@Test(invocationCount = 1, enabled = true)
+	public void script9() throws InterruptedException {
+		
+
+		System.out.println("Rahul Roi  123dmdmfdk");
+
+	}
 	
 	
 	}
